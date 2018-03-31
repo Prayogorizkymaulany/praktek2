@@ -10,7 +10,7 @@ public class pembelianaksi {
         
         System.out.println("Total Pembelian = "+botol1.totalpembelian());
         botol1.cetaktotal();
-        
+       
     }
     
 }
