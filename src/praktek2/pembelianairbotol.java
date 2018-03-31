@@ -4,9 +4,14 @@ public class pembelianairbotol {
     int jumlahpembelian;
     
     void cetakInfo(){
-        System.out.println("Pembelian Air Botol========");
+        System.out.println("=========Pembelian Air Botol========");
         System.out.println("Harga Satuan    : "+hargasatuan);
         System.out.println("Total Pembelian : "+jumlahpembelian);
     }
-     
+    
+     int totalpembelian(){
+         int total;
+         total = hargasatuan*jumlahpembelian;
+         return total;  
+     }
 }
