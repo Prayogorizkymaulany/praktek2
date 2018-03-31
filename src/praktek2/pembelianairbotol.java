@@ -14,4 +14,8 @@ public class pembelianairbotol {
          total = hargasatuan*jumlahpembelian;
          return total;  
      }
+     
+     void cetaktotal(){
+         System.out.println("Total Pembelian : "+totalpembelian());
+     }
 }

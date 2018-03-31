@@ -9,6 +9,8 @@ public class pembelianaksi {
         botol1.cetakInfo();
         
         System.out.println("Total Pembelian = "+botol1.totalpembelian());
+        botol1.cetaktotal();
+        
     }
     
 }
