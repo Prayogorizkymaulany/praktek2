@@ -1,12 +1,12 @@
 package praktek2;
 public class pembelianairbotol {
     int hargasatuan;
-    int totalpembelian;
+    int jumlahpembelian;
     
     void cetakInfo(){
         System.out.println("Pembelian Air Botol========");
         System.out.println("Harga Satuan    : "+hargasatuan);
-        System.out.println("Total Pembelian : "+totalpembelian);
+        System.out.println("Total Pembelian : "+jumlahpembelian);
     }
-    
+     
 }
