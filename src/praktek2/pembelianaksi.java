@@ -6,6 +6,8 @@ public class pembelianaksi {
         botol1.hargasatuan = 3000;
         botol1.totalpembelian = 5;
         
+        botol1.cetakInfo();
+        
     }
     
 }
