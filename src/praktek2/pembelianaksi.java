@@ -10,6 +10,12 @@ public class pembelianaksi {
         
         System.out.println("Total Pembelian = "+botol1.totalpembelian());
         botol1.cetaktotal();
+        
+        pembelianairbotol botol2 = new pembelianairbotol ();
+        botol2.cetakInfo();
+        
+        pembelianairbotol botol3 = new pembelianairbotol (5000,8 );
+        botol3.cetakInfo();
        
     }
     

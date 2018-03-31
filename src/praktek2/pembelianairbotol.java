@@ -7,6 +7,13 @@ public class pembelianairbotol {
         hargasatuan=5000;
         jumlahpembelian=8;
     }
+
+    public pembelianairbotol(int hargasatuan, int jumlahpembelian) {
+        this.hargasatuan = hargasatuan;
+        this.jumlahpembelian = jumlahpembelian;
+    }
+    
+    
     
     void cetakInfo(){
         System.out.println("=========Pembelian Air Botol========");
